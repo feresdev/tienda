@@ -8,9 +8,8 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body class="flex justify-center items-center min-h-screen p-10">
+<body class="flex justify-center items-center p-10">
     <div class="w-[400px] space-y-10">
-
         <div class="flex flex-col gap-2 bg-gray-200 rounded-md p-6">
             <h1 class="font-bold">FORMULARIO DE REGISTRO</h1>
             <form action="" class="flex-col flex gap-3">
@@ -44,8 +43,10 @@
         </div>
         <div>
             <h1>Galeria de Imagenes</h1>
-            <img src="https://m.media-amazon.com/images/S/pv-target-images/56084ba0af7752d2b0d89c24ea9905af4cbb6ef8fa0fe24a194bb5b9d27a8725._UR800,450_.png" alt="">
-            <img src="https://contraste.info/wp-content/uploads/2024/07/ElosoYogui_FichaCine_2797511.jpg" alt="">
+            <div class="flex gap-3 justify-center">
+                <img class="w-40 h-40 object-cover" src="https://m.media-amazon.com/images/S/pv-target-images/56084ba0af7752d2b0d89c24ea9905af4cbb6ef8fa0fe24a194bb5b9d27a8725._UR800,450_.png" alt="">
+                <img class="w-40 h-40 object-cover" src="https://contraste.info/wp-content/uploads/2024/07/ElosoYogui_FichaCine_2797511.jpg" alt="">
+            </div>
         </div>
     </div>
 </body>
